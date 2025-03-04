@@ -22,6 +22,8 @@ while password == enpassword:
         do = do.replace('please','')
     if 'im fine thank you' in do:
         do = do.replace('im fine thank you','')
+    if 'open' in do:
+        do = 'openApps'
     if 'bye' in do:
         do = do.replace('bye','')
         break
